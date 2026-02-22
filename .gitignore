@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.db
+
+# Node (ignore at any depth)
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+**/dist/
+*.node
+
+# Binary drops / huge artifacts
+*.zip
+*.tar
+*.tgz
+*.gz
+
+# Env
+.env
+
+# IDE
+.DS_Store
+.idea/
+.vscode/

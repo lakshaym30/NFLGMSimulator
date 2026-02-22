@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "cardinals-gm-backend"
+version = "0.1.0"
+description = "FastAPI backend for the Cardinals GM simulator."
+authors = ["Arizona Cardinals GM Sim <dev@nflgmsimulator.local>"]
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
+sqlalchemy = "^2.0.28"
+pydantic = "^2.7.0"
+pydantic-settings = "^2.2.1"
+httpx = "^0.27.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["app"]
+
+[tool.ruff.lint]
+extend-select = ["I"]

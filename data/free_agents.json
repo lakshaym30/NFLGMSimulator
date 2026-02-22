@@ -1,0 +1,150 @@
+{
+  "updated": "2026-02-21",
+  "source": "Manual board v0.1",
+  "free_agents": [
+    {
+      "id": "fa_marquee_wr",
+      "name": "Jalen Everett",
+      "position": "WR",
+      "age": 27,
+      "market_value": 19500000,
+      "traits": ["Physical possession target", "Red-zone winner"],
+      "preferred_roles": ["X"],
+      "last_team": "LAC",
+      "preferred_years": [4, 5],
+      "scheme_fits": ["west-coast", "spread"]
+    },
+    {
+      "id": "fa_speed_wr",
+      "name": "Marco Tillman",
+      "position": "WR",
+      "age": 26,
+      "market_value": 16500000,
+      "traits": ["Field stretcher", "Run-after-catch"],
+      "preferred_roles": ["Z", "Slot"],
+      "last_team": "MIA",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["air-raid", "spread"]
+    },
+    {
+      "id": "fa_rt_anchor",
+      "name": "Riley Booker",
+      "position": "OT",
+      "age": 33,
+      "market_value": 13500000,
+      "traits": ["Veteran mentor", "Pass protection specialist"],
+      "preferred_roles": ["LT", "RT"],
+      "last_team": "DAL",
+      "preferred_years": [1, 2],
+      "scheme_fits": ["gap", "west-coast"]
+    },
+    {
+      "id": "fa_dl_wrecker",
+      "name": "Tariq Massey",
+      "position": "DL",
+      "age": 30,
+      "market_value": 23000000,
+      "traits": ["Interior pressure", "Pocket disruptor"],
+      "preferred_roles": ["3T"],
+      "last_team": "KC",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["multiple", "attack-front"]
+    },
+    {
+      "id": "fa_cb_lockdown",
+      "name": "Isaiah Trent",
+      "position": "CB",
+      "age": 28,
+      "market_value": 18000000,
+      "traits": ["Press corner", "Man coverage"],
+      "preferred_roles": ["Outside CB"],
+      "last_team": "BUF",
+      "preferred_years": [4, 5],
+      "scheme_fits": ["press-man", "multiple"]
+    },
+    {
+      "id": "fa_safety_qb",
+      "name": "Cameron Wells",
+      "position": "S",
+      "age": 31,
+      "market_value": 14500000,
+      "traits": ["Post safety", "Turnover creator"],
+      "preferred_roles": ["FS"],
+      "last_team": "DEN",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["quarters", "match"]
+    },
+    {
+      "id": "fa_rb_dual",
+      "name": "Darius Wynn",
+      "position": "RB",
+      "age": 29,
+      "market_value": 16000000,
+      "traits": ["Explosive runner", "Receiving threat"],
+      "preferred_roles": ["Feature back"],
+      "last_team": "NYJ",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["outside-zone", "gap"]
+    },
+    {
+      "id": "fa_lb_green_dot",
+      "name": "Logan Perry",
+      "position": "LB",
+      "age": 28,
+      "market_value": 12500000,
+      "traits": ["Blitzer", "Sideline range"],
+      "preferred_roles": ["MIKE"],
+      "last_team": "TB",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["attack-front", "multiple"]
+    },
+    {
+      "id": "fa_edge_speed",
+      "name": "Noah Drake",
+      "position": "EDGE",
+      "age": 26,
+      "market_value": 22000000,
+      "traits": ["Speed rusher", "Bend"],
+      "preferred_roles": ["Rush OLB"],
+      "last_team": "CAR",
+      "preferred_years": [4, 5],
+      "scheme_fits": ["multiple", "wide-9"]
+    },
+    {
+      "id": "fa_qb_bridge",
+      "name": "Elliot Warner",
+      "position": "QB",
+      "age": 36,
+      "market_value": 32000000,
+      "traits": ["Veteran starter", "Timing passer"],
+      "preferred_roles": ["Starter"],
+      "last_team": "MIN",
+      "preferred_years": [2, 3],
+      "scheme_fits": ["shanahan", "play-action"]
+    },
+    {
+      "id": "fa_te_move",
+      "name": "Mason Caldwell",
+      "position": "TE",
+      "age": 31,
+      "market_value": 11500000,
+      "traits": ["Mismatch weapon", "Slot TE"],
+      "preferred_roles": ["Move TE"],
+      "last_team": "NYG",
+      "preferred_years": [2, 3],
+      "scheme_fits": ["spread", "west-coast"]
+    },
+    {
+      "id": "fa_iol_pivot",
+      "name": "Royce Kim",
+      "position": "C",
+      "age": 28,
+      "market_value": 10500000,
+      "traits": ["Athletic center", "Reach blocks"],
+      "preferred_roles": ["Center"],
+      "last_team": "MIA",
+      "preferred_years": [3, 4],
+      "scheme_fits": ["wide-zone", "spread"]
+    }
+  ]
+}
